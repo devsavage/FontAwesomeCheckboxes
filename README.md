@@ -1,7 +1,7 @@
 FontAwesome Custom Checkboxes
 =====================
 
-Custom checkboxes for forms.
+Custom checkboxes using <a href="http://fortawesome.github.io/Font-Awesome/" target=_blank>FontAwesome</a> icons.
 ----------------------------
 
 <strong>HTML Code</strong>
