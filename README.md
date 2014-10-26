@@ -35,7 +35,7 @@ Custom checkboxes for forms.
 </form>
 </body>
 </html>
-
+```
 <strong>CSS Code</strong>
 
 ```css
@@ -93,3 +93,4 @@ label input[type="checkbox"]:disabled + .label-text:before
 	content: "\f0c8";
 	color: #ccc;
 }
+```
