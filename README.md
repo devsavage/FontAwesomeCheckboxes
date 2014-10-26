@@ -36,3 +36,60 @@ Custom checkboxes for forms.
 </body>
 </html>
 
+<strong>CSS Code</strong>
+
+```css
+@charset "utf-8";
+/* CSS Document */
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
+
+body 
+{
+	padding: 25px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+label 
+{
+	cursor: pointer;
+	color: #666;
+}
+
+label input[type="checkbox"]
+{
+	display: none;
+}
+
+label input[type="checkbox"] + .label-text:before
+{
+	content: "\f096";
+	font-family: FontAwesome;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	width: 1em;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+label input[type="checkbox"]:checked + .label-text:before
+{
+	content: "\f14a";
+	color: #06A3E9;
+}
+
+label input[type="checkbox"]:disabled + .label-text 
+{
+	color: #aaa;
+	cursor: not-allowed;
+}
+
+label input[type="checkbox"]:disabled + .label-text:before
+{
+	content: "\f0c8";
+	color: #ccc;
+}
