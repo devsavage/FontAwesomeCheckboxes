@@ -4,7 +4,7 @@ FontAwesome Custom Checkboxes
 Custom checkboxes for forms.
 ----------------------------
 
-HTML Code
+<strong>HTML Code</strong>
 
 ```html
 <!doctype html>
